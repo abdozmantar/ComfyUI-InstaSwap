@@ -65,7 +65,7 @@ InstaFaceSwap node is very easy to use.  In order to get a result, you have to c
 ### Inputs
 
 - (1) `input_image` - is your source image/video file that be processed.
-<img src="https://github.com/abdozmantar/ComfyUI-InstaSwap/blob/main/help/NodeTypes.jpg?raw=true" alt="webui-demo" width="100%"/>
+    <img src="https://github.com/abdozmantar/ComfyUI-InstaSwap/blob/main/help/NodeTypes.jpg?raw=true" alt="webui-demo" width="100%"/>
 	#### Supported Nodes
 	- Image Files :
 	For `processing` single image files you can use Comfy's default `Load Image Node` 
