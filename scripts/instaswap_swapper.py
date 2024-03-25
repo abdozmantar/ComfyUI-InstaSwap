@@ -150,7 +150,6 @@ def get_face_single(img_data: np.ndarray, face, face_index=0, det_size=(640, 640
     except IndexError:
         return None, 0
 
-
 def swap_face(
     source_img: Union[Image.Image, None],
     target_img: Image.Image,
