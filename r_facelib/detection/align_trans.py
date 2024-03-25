@@ -15,7 +15,6 @@ class FaceWarpException(Exception):
     def __str__(self):
         return 'In File {}:{}'.format(__file__, super.__str__(self))
 
-
 def get_reference_facial_points(output_size=None, inner_padding_factor=0.0, outer_padding=(0, 0), default_square=False):
     """
     Function:
