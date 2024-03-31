@@ -9,7 +9,6 @@ REFERENCE_FACIAL_POINTS = [[30.29459953, 51.69630051], [65.53179932, 51.50139999
 
 DEFAULT_CROP_SIZE = (96, 112)
 
-
 class FaceWarpException(Exception):
 
     def __str__(self):
