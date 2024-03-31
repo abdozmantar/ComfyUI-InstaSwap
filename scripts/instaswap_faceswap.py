@@ -29,7 +29,6 @@ def get_models():
     models = [x for x in models if x.endswith(".onnx") or x.endswith(".pth")]
     return models
 
-
 class FaceSwapScript(scripts.Script):
 
     def process(
