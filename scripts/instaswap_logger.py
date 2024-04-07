@@ -10,7 +10,6 @@
 import logging
 import copy
 import sys
-
 from modules import shared
 from instaswap_utils import addLoggingLevel
 
@@ -31,7 +30,6 @@ class ColoredFormatter(logging.Formatter):
         seq = self.COLORS.get(levelname, self.COLORS["RESET"])
         colored_record.levelname = f"{seq}{levelname}{self.COLORS['RESET']}"
         return super().format(colored_record)
-
 
 # Create a new logger
 logger = logging.getLogger("InstaSwap")
