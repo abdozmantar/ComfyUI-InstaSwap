@@ -56,7 +56,6 @@ if os.path.exists(insightface_path) and os.path.exists(insightface_path_old):
     shutil.rmtree(insightface_path_old)
     shutil.rmtree(models_path_old)
 
-
 FS_MODEL = None
 CURRENT_FS_MODEL_PATH = None
 
