@@ -19,6 +19,7 @@ from PIL import Image
 
 import insightface
 from insightface.app.common import Face
+
 try:
     import torch.cuda as cuda
 except:
@@ -58,9 +59,7 @@ if os.path.exists(insightface_path) and os.path.exists(insightface_path_old):
 
 FS_MODEL = None
 CURRENT_FS_MODEL_PATH = None
-
 ANALYSIS_MODEL = None
-
 SOURCE_FACES = None
 SOURCE_IMAGE_HASH = None
 TARGET_FACES = None
