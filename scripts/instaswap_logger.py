@@ -23,7 +23,6 @@ class ColoredFormatter(logging.Formatter):
         "CRITICAL": "\033[0;37;41m",  # WHITE ON RED
         "RESET": "\033[0m",  # RESET COLOR
     }
-
     def format(self, record):
         colored_record = copy.copy(record)
         levelname = colored_record.levelname
