@@ -10,6 +10,7 @@
 import logging
 import copy
 import sys
+
 from modules import shared
 from instaswap_utils import addLoggingLevel
 
