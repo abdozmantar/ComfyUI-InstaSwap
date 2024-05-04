@@ -10,10 +10,8 @@
 import copy
 import os
 import shutil
-
 from dataclasses import dataclass
 from typing import List, Union
-
 import cv2
 import numpy as np
 
