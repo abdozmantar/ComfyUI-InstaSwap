@@ -10,14 +10,12 @@
 import os, glob
 from PIL import Image
 import modules.scripts as scripts
-
 # from modules.upscaler import Upscaler, UpscalerData
 from modules import scripts, shared, images, scripts_postprocessing
 from modules.processing import (
     StableDiffusionProcessing,
     StableDiffusionProcessingImg2Img,
 )
-
 from scripts.instaswap_logger import logger
 from scripts.instaswap_swapper import swap_face, get_current_faces_model, analyze_faces
 import folder_paths
