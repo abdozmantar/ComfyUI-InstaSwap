@@ -1,5 +1,4 @@
 @echo off
-
 :: Exit if embedded python is not found
 if not exist ..\..\..\python_embeded\python.exe (
     echo Embedded python folder not found.
