@@ -6,7 +6,6 @@
 #                                              #
 #         GNU GENERAL PUBLIC LICENSE           #
 #----------------------------------------------#
-
 import logging
 import copy
 import sys
