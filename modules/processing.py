@@ -6,7 +6,6 @@ class StableDiffusionProcessing:
         self.height = init_imgs[0].height
         self.extra_generation_params = {}
 
-
 class StableDiffusionProcessingImg2Img(StableDiffusionProcessing):
 
     def __init__(self, init_img):
