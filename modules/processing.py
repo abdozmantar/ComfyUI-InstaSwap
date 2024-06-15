@@ -1,4 +1,5 @@
 class StableDiffusionProcessing:
+    
     def __init__(self, init_imgs):
         self.init_images = init_imgs
         self.width = init_imgs[0].width
