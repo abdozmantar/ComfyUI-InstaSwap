@@ -14,7 +14,6 @@ from dataclasses import dataclass
 from typing import List, Union
 import cv2
 import numpy as np
-
 from PIL import Image
 import insightface
 from insightface.app.common import Face
