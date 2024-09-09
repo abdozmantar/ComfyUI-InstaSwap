@@ -10,12 +10,10 @@
 import copy
 import os
 import shutil
-
 from dataclasses import dataclass
 from typing import List, Union
 import cv2
 import numpy as np
-
 from PIL import Image
 import insightface
 from insightface.app.common import Face
@@ -44,7 +42,6 @@ else:
 models_path_old = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models")
 insightface_path_old = os.path.join(models_path_old, "insightface")
 insightface_models_path_old = os.path.join(insightface_path_old, "models")
-
 models_path = folder_paths.models_dir
 insightface_path = os.path.join(models_path, "insightface")
 insightface_models_path = os.path.join(insightface_path, "models")
