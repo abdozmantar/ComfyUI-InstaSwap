@@ -9,7 +9,6 @@ original_modules = sys.modules.copy()
 modules_used = [
     "modules",
     "modules.face_restoration",
-    "modules.images",
     "modules.processing",
     "modules.scripts_postprocessing",
     "modules.scripts",

@@ -12,7 +12,7 @@ from PIL import Image
 import modules.scripts as scripts
 
 # from modules.upscaler import Upscaler, UpscalerData
-from modules import scripts, shared, images, scripts_postprocessing
+from modules import scripts, scripts_postprocessing
 from modules.processing import (
     StableDiffusionProcessing,
     StableDiffusionProcessingImg2Img,
