@@ -132,7 +132,7 @@ class instaswap:
 
         if face_restore_model != "none":
 
-            logger.status(f"Frames restoring with : {face_restore_model}")
+            logger.info(f"Frames restoring with : {face_restore_model}")
 
             model_path = folder_paths.get_full_path("facerestore_models", face_restore_model)
 
@@ -270,9 +270,9 @@ class SaveFaceModel:
             source = tensor_to_pil(image)
             source = cv2.cvtColor(np.array(source), cv2.COLOR_RGB2BGR)
             apply_logging_patch(1)
-            logger.status("[Building Face Model]")
+            logger.info("[Building Face Model]")
             face_model = analyze_faces(source)[0]
-            logger.status("-------------- COMPLETED ! --------------")
+            logger.info("-------------- COMPLETED ! --------------")
         if save_mode and (face_model != "none" or face_model is not None):
             face_model_path = os.path.join(self.output_dir, face_model_name + ".safetensors")
             save_face_model(face_model,face_model_path)
