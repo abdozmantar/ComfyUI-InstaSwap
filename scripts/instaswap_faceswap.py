@@ -18,7 +18,8 @@ from modules.processing import (
     StableDiffusionProcessingImg2Img,
 )
 from scripts.instaswap_logger import logger
-from scripts.instaswap_swapper import swap_face
+from scripts.instaswap_swapper import swap_face, get_current_faces_model,analyze_faces
+
 import folder_paths
 
 def get_models():
